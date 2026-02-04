@@ -11,8 +11,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ClassIn 账号信息
 # ⚠️ 建议后续改为环境变量
 # =========================
-CLASSIN_USERNAME = "15620939846"
-CLASSIN_PASSWORD = "jay13403630587"
+CLASSIN_USERNAME = "your_username"
+CLASSIN_PASSWORD = "your_password"
 
 
 # =========================
