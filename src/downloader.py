@@ -16,8 +16,15 @@ class Downloader:
         self.session = requests.Session()
         self.session.cookies.update(self.cookie_manager.to_requests_cookies())
 
-    def download(self, url: str, filename: str) -> Path | None:
-        save_path = self.download_dir / filename
+    def download(self, url: str, filename: str, subdirectory: str = None) -> Path | None:
+        # 如果指定了子文件夹，则在 download_dir 下创建该文件夹
+        if subdirectory:
+            save_dir = self.download_dir / subdirectory
+            save_dir.mkdir(exist_ok=True)
+        else:
+            save_dir = self.download_dir
+        
+        save_path = save_dir / filename
 
         logger.info("开始下载: {}", filename)
 
