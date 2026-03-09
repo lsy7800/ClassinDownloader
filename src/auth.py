@@ -12,10 +12,11 @@ class LoginManager:
         self.driver = driver
         self.cookie_manager = cookie_manager
 
-    def login(self) -> bool:
+    def login(self, clear_old_cookies: bool = True) -> bool:
         logger.info("开始登录 ClassIn")
-        # 先清理旧的 cookies
-        self.cookie_manager.clear(self.driver)
+        # 如果需要，清理旧的 cookies
+        if clear_old_cookies:
+            self.cookie_manager.clear(self.driver)
         self.driver.get("https://www.eeo.cn/cn/login")
         time.sleep(5)
         try:

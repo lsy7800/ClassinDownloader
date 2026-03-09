@@ -1,4 +1,5 @@
 # main.py
+import sys
 import time
 from utils.browser import Browser
 from utils.cookies import CookieManager
@@ -18,18 +19,43 @@ def main():
     cookie_manager = CookieManager()
 
     # 3. 尝试加载 cookies
-    if cookie_manager.load(driver, "https://www.eeo.cn/cn"):
-        logger.info("cookies 已加载，验证登录状态")
-        driver.get("https://www.eeo.cn/cn")
-        time.sleep(2)
+    try:
+        if cookie_manager.load(driver, "https://www.eeo.cn/cn"):
+            logger.info("cookies 已加载，检查是否过期")
+            
+            # 先检查 cookies 文件中是否有过期的 cookie
+            if cookie_manager.is_cookie_expired():
+                logger.warning("cookies 已过期，清除并重新登录")
+                login_manager = LoginManager(driver, cookie_manager)
+                if not login_manager.login(clear_old_cookies=True):
+                    logger.error("登录失败，程序退出")
+                    browser.quit()
+                    sys.exit(1)
+            else:
+                # cookies 未过期，验证登录状态
+                driver.get("https://www.eeo.cn/cn")
+                time.sleep(2)
 
-        if "login" in driver.current_url:
-            logger.warning("cookies 已过期，重新登录")
+                if "login" in driver.current_url:
+                    logger.warning("cookies 验证失败（URL 包含 login），重新登录")
+                    login_manager = LoginManager(driver, cookie_manager)
+                    if not login_manager.login(clear_old_cookies=True):
+                        logger.error("登录失败，程序退出")
+                        browser.quit()
+                        sys.exit(1)
+                else:
+                    logger.info("cookies 验证成功，可以继续使用")
+        else:
+            logger.info("cookies 文件不存在，需要重新登录")
             login_manager = LoginManager(driver, cookie_manager)
-            login_manager.login()
-    else:
-        login_manager = LoginManager(driver, cookie_manager)
-        login_manager.login()
+            if not login_manager.login(clear_old_cookies=False):
+                logger.error("登录失败，程序退出")
+                browser.quit()
+                sys.exit(1)
+    except Exception as e:
+        logger.error("登录过程异常: {}", e)
+        browser.quit()
+        sys.exit(1)
 
     # 4. 关闭浏览器
     browser.quit()

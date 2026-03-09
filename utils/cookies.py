@@ -103,3 +103,31 @@ class CookieManager:
             return {}
 
         return {c["name"]: c["value"] for c in cookies}
+
+    def is_cookie_expired(self) -> bool:
+        """
+        检查 cookies 是否已过期（检查是否存在过期的 cookie）
+        """
+        if not self.cookie_file.exists():
+            logger.info("cookies 文件不存在")
+            return True
+
+        try:
+            with open(self.cookie_file, "r", encoding="utf-8") as f:
+                cookies = json.load(f)
+        except Exception as e:
+            logger.error("读取 cookies 文件失败: {}", e)
+            return True
+
+        import time
+        current_time = time.time()
+
+        for cookie in cookies:
+            # 检查 cookie 是否有过期时间且已过期
+            if "expiry" in cookie:
+                if cookie["expiry"] < current_time:
+                    logger.warning("检测到过期的 cookie: {}", cookie.get("name"))
+                    return True
+
+        logger.info("cookies 未过期")
+        return False

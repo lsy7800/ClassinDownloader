@@ -14892,3 +14892,45 @@ Stacktrace:
 2026-02-04 14:25:06 | INFO | src.spider:get_video:46 - 开始获取视频地址:294735713-1027885939
 2026-02-04 14:25:30 | ERROR | __main__:main:59 - ('Connection aborted.', OSError(49, "Can't assign requested address"))
 2026-02-04 14:25:30 | INFO | __main__:main:61 - 程序结束
+2026-03-09 12:41:59 | INFO | __main__:main:11 - 程序启动
+2026-03-09 12:43:18 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-09 12:43:26 | DEBUG | utils.cookies:load:59 - 注入 cookie 失败: __tk_id -> Message: invalid cookie domain: Cookie 'domain' mismatch
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+0   chromedriver                        0x0000000104d456b4 cxxbridge1$str$ptr + 3127600
+1   chromedriver                        0x0000000104d3da50 cxxbridge1$str$ptr + 3095756
+2   chromedriver                        0x000000010481a56c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75432
+3   chromedriver                        0x00000001048b1ecc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 696328
+4   chromedriver                        0x00000001048a2620 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632668
+5   chromedriver                        0x0000000104857b9c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326872
+6   chromedriver                        0x0000000104d04680 cxxbridge1$str$ptr + 2861308
+7   chromedriver                        0x0000000104d07dd4 cxxbridge1$str$ptr + 2875472
+8   chromedriver                        0x0000000104ce9a7c cxxbridge1$str$ptr + 2751736
+9   chromedriver                        0x0000000104d08658 cxxbridge1$str$ptr + 2877652
+10  chromedriver                        0x0000000104cd9ffc cxxbridge1$str$ptr + 2687608
+11  chromedriver                        0x0000000104d2cd78 cxxbridge1$str$ptr + 3026932
+12  chromedriver                        0x0000000104d2cef4 cxxbridge1$str$ptr + 3027312
+13  chromedriver                        0x0000000104d3d6a8 cxxbridge1$str$ptr + 3094820
+14  libsystem_pthread.dylib             0x000000018fa5fc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018fa5aba8 thread_start + 8
+
+2026-03-09 12:43:27 | INFO | utils.cookies:load:65 - cookies 加载完成，成功 11 / 12
+2026-03-09 12:43:27 | INFO | __main__:main:22 - cookies 已加载，检查是否过期
+2026-03-09 12:43:27 | WARNING | utils.cookies:is_cookie_expired:129 - 检测到过期的 cookie: _eeos_sid
+2026-03-09 12:43:27 | WARNING | __main__:main:26 - cookies 已过期，清除并重新登录
+2026-03-09 12:43:27 | INFO | src.auth:login:16 - 开始登录 ClassIn
+2026-03-09 12:43:27 | WARNING | utils.cookies:clear:76 - 清理旧 cookies
+2026-03-09 12:43:27 | INFO | utils.cookies:clear:86 - 本地 cookies 文件已删除
+2026-03-09 12:43:50 | ERROR | src.auth:login:47 - 登录失败，请检查账号密码或验证码
+2026-03-09 12:43:50 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-09 12:43:50 | INFO | __main__:main:49 - 登录流程完成，开始构建信息
+2026-03-09 12:43:50 | WARNING | utils.cookies:to_requests_cookies:95 - cookies 文件不存在，无法转换
+2026-03-09 12:43:50 | WARNING | utils.cookies:to_requests_cookies:95 - cookies 文件不存在，无法转换
+2026-03-09 12:47:32 | INFO | __main__:main:12 - 程序启动
+2026-03-09 12:47:34 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-09 12:47:34 | INFO | utils.cookies:load:40 - cookies 文件不存在
+2026-03-09 12:47:34 | INFO | __main__:main:49 - cookies 文件不存在，需要重新登录
+2026-03-09 12:47:34 | INFO | src.auth:login:16 - 开始登录 ClassIn
+2026-03-09 12:48:01 | ERROR | src.auth:login:47 - 登录失败，请检查账号密码或验证码
+2026-03-09 12:48:01 | ERROR | __main__:main:52 - 登录失败，程序退出
+2026-03-09 12:48:01 | INFO | utils.browser:quit:44 - 关闭浏览器
