@@ -15362,3 +15362,136 @@ Stacktrace:
 2026-03-09 23:07:51 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/69e9d7105145403719311305061/f0.mp4
 2026-03-09 23:07:51 | INFO | __main__:main:136 - 2026春季九年级英语尖子1-1-1.mp4
 2026-03-09 23:07:51 | INFO | src.downloader:download:29 - 开始下载: 2026春季九年级英语尖子1-1-1.mp4
+2026-03-10 11:07:21 | INFO | __main__:main:13 - 程序启动
+2026-03-10 11:07:23 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-10 11:07:34 | DEBUG | utils.cookies:load:59 - 注入 cookie 失败: __tk_id -> Message: invalid cookie domain: Cookie 'domain' mismatch
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+0   chromedriver                        0x00000001051e96b4 cxxbridge1$str$ptr + 3127600
+1   chromedriver                        0x00000001051e1a50 cxxbridge1$str$ptr + 3095756
+2   chromedriver                        0x0000000104cbe56c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75432
+3   chromedriver                        0x0000000104d55ecc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 696328
+4   chromedriver                        0x0000000104d46620 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632668
+5   chromedriver                        0x0000000104cfbb9c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326872
+6   chromedriver                        0x00000001051a8680 cxxbridge1$str$ptr + 2861308
+7   chromedriver                        0x00000001051abdd4 cxxbridge1$str$ptr + 2875472
+8   chromedriver                        0x000000010518da7c cxxbridge1$str$ptr + 2751736
+9   chromedriver                        0x00000001051ac658 cxxbridge1$str$ptr + 2877652
+10  chromedriver                        0x000000010517dffc cxxbridge1$str$ptr + 2687608
+11  chromedriver                        0x00000001051d0d78 cxxbridge1$str$ptr + 3026932
+12  chromedriver                        0x00000001051d0ef4 cxxbridge1$str$ptr + 3027312
+13  chromedriver                        0x00000001051e16a8 cxxbridge1$str$ptr + 3094820
+14  libsystem_pthread.dylib             0x000000018fa5fc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018fa5aba8 thread_start + 8
+
+2026-03-10 11:07:34 | INFO | utils.cookies:load:65 - cookies 加载完成，成功 11 / 12
+2026-03-10 11:07:34 | INFO | __main__:main:25 - cookies 已加载，检查是否过期
+2026-03-10 11:07:34 | WARNING | utils.cookies:is_cookie_expired:129 - 检测到过期的 cookie: _eeos_domain
+2026-03-10 11:07:34 | WARNING | __main__:main:29 - cookies 已过期，清除并重新登录
+2026-03-10 11:07:34 | INFO | src.auth:login:16 - 开始登录 ClassIn
+2026-03-10 11:07:34 | WARNING | utils.cookies:clear:76 - 清理旧 cookies
+2026-03-10 11:07:34 | INFO | utils.cookies:clear:86 - 本地 cookies 文件已删除
+2026-03-10 11:07:57 | INFO | src.auth:login:43 - 登录成功，保存 cookies
+2026-03-10 11:07:57 | INFO | utils.cookies:save:28 - cookies 已保存，共 13 条
+2026-03-10 11:07:57 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-10 11:07:58 | INFO | __main__:main:65 - 登录流程完成，开始构建信息
+2026-03-10 11:08:29 | ERROR | utils.date_validator:validate_date_range:37 - 开始日期 2026-02-23 不能晚于结束日期 2026-02-04
+2026-03-10 11:08:46 | INFO | __main__:main:108 - 开始获取 2026-02-23 到 2026-02-24 的课程
+2026-03-10 11:08:46 | INFO | src.spider:get_courses_by_date_range:126 - 开始获取 2026-02-23 到 2026-02-24 的课程
+2026-03-10 11:08:46 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2026-02-23 的课程
+2026-03-10 11:08:46 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2026-02-23 第 1 页的课程
+2026-03-10 11:08:46 | INFO | src.spider:get_courses_by_single_day:105 - 2026-02-23 第 1 页获取 6 条课程
+2026-03-10 11:08:46 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2026-02-24 的课程
+2026-03-10 11:08:46 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2026-02-24 第 1 页的课程
+2026-03-10 11:08:47 | INFO | src.spider:get_courses_by_single_day:105 - 2026-02-24 第 1 页获取 6 条课程
+2026-03-10 11:08:47 | INFO | src.spider:get_courses_by_date_range:138 - 共获取 12 条课程
+2026-03-10 11:08:47 | INFO | __main__:main:118 - 获取到 12 条课程
+2026-03-10 11:08:47 | INFO | __main__:main:126 - {'id': 1036514293, 'className': '和平初三寒假全托集训 - 语文', 'courseId': 295718047, 'courseName': '和平初三寒假全托集训', 'classBtime': 1771831800, 'classEtime': 1771839000, 'classStatus': 3, 'teacherInfo': {'id': 17253069, 'uid': 83919386, 'mobile': '13389051652', 'email': '', 'accountStatus': 0, 'name': '韩老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'd52ac97de6caace2', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1036514293, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112132, 'creatorName': '韩老师', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '0', 'courseType': '1', 'createTime': 1771750222, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:08:47 | INFO | src.spider:get_video:46 - 开始获取视频地址:295718047-1036514293
+2026-03-10 11:08:47 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/3149c7b95145403717779871978/f0.mp4
+2026-03-10 11:08:47 | INFO | __main__:main:136 - 和平初三寒假全托集训-语文-1.mp4
+2026-03-10 11:08:47 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-语文-1.mp4
+2026-03-10 11:09:31 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-语文-1.mp4
+2026-03-10 11:09:31 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/11d038ad5145403717789362682/f0.mp4
+2026-03-10 11:09:31 | INFO | __main__:main:136 - 和平初三寒假全托集训-语文-2.mp4
+2026-03-10 11:09:31 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-语文-2.mp4
+2026-03-10 11:09:34 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-语文-2.mp4
+2026-03-10 11:09:34 | INFO | __main__:main:126 - {'id': 1036514011, 'className': '和平初三寒假全托集训 - 数学', 'courseId': 295718047, 'courseName': '和平初三寒假全托集训', 'classBtime': 1771823700, 'classEtime': 1771830900, 'classStatus': 3, 'teacherInfo': {'id': 17253069, 'uid': 83919386, 'mobile': '13389051652', 'email': '', 'accountStatus': 0, 'name': '韩老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '194091a7626489bc', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1036514011, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112132, 'creatorName': '韩老师', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '0', 'courseType': '1', 'createTime': 1771750178, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:09:34 | INFO | src.spider:get_video:46 - 开始获取视频地址:295718047-1036514011
+2026-03-10 11:09:34 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/bd641a365145403717771316003/f0.mp4
+2026-03-10 11:09:34 | INFO | __main__:main:136 - 和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:09:34 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:11:49 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:11:49 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/ca99560d5145403717818676474/f0.mp4
+2026-03-10 11:11:49 | INFO | __main__:main:136 - 和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:11:49 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:12:01 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:12:01 | INFO | __main__:main:126 - {'id': 1026426339, 'className': '2026寒假九年级历史集训课 - 3', 'courseId': 294556339, 'courseName': '2026寒假九年级历史集训课', 'classBtime': 1771822800, 'classEtime': 1771837200, 'classStatus': 3, 'teacherInfo': {'id': 16385311, 'uid': 37494594, 'mobile': '18222273091', 'email': '', 'accountStatus': 0, 'name': '从老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 24, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '7705a1c6b325d42d', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1026426339, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1769596607, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:12:01 | INFO | src.spider:get_video:46 - 开始获取视频地址:294556339-1026426339
+2026-03-10 11:12:02 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/0480be7e5145403717639536040/f0.mp4
+2026-03-10 11:12:02 | INFO | __main__:main:136 - 2026寒假九年级历史集训课-3-1.mp4
+2026-03-10 11:12:02 | INFO | src.downloader:download:29 - 开始下载: 2026寒假九年级历史集训课-3-1.mp4
+2026-03-10 11:15:21 | ERROR | src.downloader:download:53 - 下载失败 2026寒假九年级历史集训课-3-1.mp4: HTTPSConnectionPool(host='playback.eeo.cn', port=443): Read timed out.
+2026-03-10 11:15:21 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/922d59265145403717777603572/f0.mp4
+2026-03-10 11:15:21 | INFO | __main__:main:136 - 2026寒假九年级历史集训课-3-2.mp4
+2026-03-10 11:15:21 | INFO | src.downloader:download:29 - 开始下载: 2026寒假九年级历史集训课-3-2.mp4
+2026-03-10 11:16:15 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026寒假九年级历史集训课/2026寒假九年级历史集训课-3-2.mp4
+2026-03-10 11:16:15 | INFO | __main__:main:126 - {'id': 1036513615, 'className': '和平初三寒假全托集训 - 数学', 'courseId': 295718047, 'courseName': '和平初三寒假全托集训', 'classBtime': 1771812900, 'classEtime': 1771820100, 'classStatus': 3, 'teacherInfo': {'id': 17253069, 'uid': 83919386, 'mobile': '13389051652', 'email': '', 'accountStatus': 0, 'name': '韩老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '4c84db46dc0e3890', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1036513615, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112132, 'creatorName': '韩老师', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '0', 'courseType': '1', 'createTime': 1771750138, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:16:15 | INFO | src.spider:get_video:46 - 开始获取视频地址:295718047-1036513615
+2026-03-10 11:16:15 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/d4beae6b5145403717628958542/f0.mp4
+2026-03-10 11:16:15 | INFO | __main__:main:136 - 和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:16:15 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:17:16 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:17:16 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/840bc7045145403717634599051/f0.mp4
+2026-03-10 11:17:16 | INFO | __main__:main:136 - 和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:17:16 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:17:23 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:17:23 | INFO | __main__:main:126 - {'id': 1036513235, 'className': '和平初三寒假全托集训 - 英语', 'courseId': 295718047, 'courseName': '和平初三寒假全托集训', 'classBtime': 1771804800, 'classEtime': 1771812000, 'classStatus': 3, 'teacherInfo': {'id': 17253069, 'uid': 83919386, 'mobile': '13389051652', 'email': '', 'accountStatus': 0, 'name': '韩老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'a73fa75c6212347a', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1036513235, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112132, 'creatorName': '韩老师', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '0', 'courseType': '1', 'createTime': 1771750105, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:17:23 | INFO | src.spider:get_video:46 - 开始获取视频地址:295718047-1036513235
+2026-03-10 11:17:23 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/e9e438be5145403717751564503/f0.mp4
+2026-03-10 11:17:23 | INFO | __main__:main:136 - 和平初三寒假全托集训-英语-1.mp4
+2026-03-10 11:17:23 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-英语-1.mp4
+2026-03-10 11:18:04 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-英语-1.mp4
+2026-03-10 11:18:04 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/b393ea215145403717645140766/f0.mp4
+2026-03-10 11:18:04 | INFO | __main__:main:136 - 和平初三寒假全托集训-英语-2.mp4
+2026-03-10 11:18:04 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-英语-2.mp4
+2026-03-10 11:18:10 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-英语-2.mp4
+2026-03-10 11:18:10 | INFO | __main__:main:126 - {'id': 1026409921, 'className': '2026寒假九年级道法集训课 - 3', 'courseId': 294554105, 'courseName': '2026寒假九年级道法集训课', 'classBtime': 1771804800, 'classEtime': 1771819200, 'classStatus': 3, 'teacherInfo': {'id': 16364689, 'uid': 26255758, 'mobile': '15810138206', 'email': '', 'accountStatus': 0, 'name': '白老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 21, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '2', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '3ae4061f5a5ca7ac', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1026409921, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1769594829, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:18:10 | INFO | src.spider:get_video:46 - 开始获取视频地址:294554105-1026409921
+2026-03-10 11:18:10 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/468419bd5145403717790202177/f0.mp4
+2026-03-10 11:18:10 | INFO | __main__:main:136 - 2026寒假九年级道法集训课-3-1.mp4
+2026-03-10 11:18:10 | INFO | src.downloader:download:29 - 开始下载: 2026寒假九年级道法集训课-3-1.mp4
+2026-03-10 11:19:12 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026寒假九年级道法集训课/2026寒假九年级道法集训课-3-1.mp4
+2026-03-10 11:19:12 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/bf2954515145403717798973192/f0.mp4
+2026-03-10 11:19:12 | INFO | __main__:main:136 - 2026寒假九年级道法集训课-3-2.mp4
+2026-03-10 11:19:12 | INFO | src.downloader:download:29 - 开始下载: 2026寒假九年级道法集训课-3-2.mp4
+2026-03-10 11:20:16 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026寒假九年级道法集训课/2026寒假九年级道法集训课-3-2.mp4
+2026-03-10 11:20:16 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/e8fba6dc5145403717805013629/f0.mp4
+2026-03-10 11:20:16 | INFO | __main__:main:136 - 2026寒假九年级道法集训课-3-3.mp4
+2026-03-10 11:20:16 | INFO | src.downloader:download:29 - 开始下载: 2026寒假九年级道法集训课-3-3.mp4
+2026-03-10 11:20:20 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026寒假九年级道法集训课/2026寒假九年级道法集训课-3-3.mp4
+2026-03-10 11:20:20 | INFO | __main__:main:126 - {'id': 1036515913, 'className': '和平初三寒假全托集训 - 数学', 'courseId': 295718047, 'courseName': '和平初三寒假全托集训', 'classBtime': 1771918200, 'classEtime': 1771925400, 'classStatus': 3, 'teacherInfo': {'id': 17253069, 'uid': 83919386, 'mobile': '13389051652', 'email': '', 'accountStatus': 0, 'name': '韩老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '5cd7ffebdcbc5747', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 1, 'clientClassId': 1036515913, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112132, 'creatorName': '韩老师', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '0', 'courseType': '1', 'createTime': 1771750629, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:20:20 | INFO | src.spider:get_video:46 - 开始获取视频地址:295718047-1036515913
+2026-03-10 11:20:20 | INFO | __main__:main:126 - {'id': 1036515505, 'className': '和平初三寒假全托集训 - 数学', 'courseId': 295718047, 'courseName': '和平初三寒假全托集训', 'classBtime': 1771910100, 'classEtime': 1771917300, 'classStatus': 3, 'teacherInfo': {'id': 17253069, 'uid': 83919386, 'mobile': '13389051652', 'email': '', 'accountStatus': 0, 'name': '韩老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'f8f5a480f71b3538', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1036515505, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112132, 'creatorName': '韩老师', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1771750543, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:20:20 | INFO | src.spider:get_video:46 - 开始获取视频地址:295718047-1036515505
+2026-03-10 11:20:20 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/fc506eaa5145403717907249485/f0.mp4
+2026-03-10 11:20:20 | INFO | __main__:main:136 - 和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:20:20 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:20:23 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-数学-1.mp4
+2026-03-10 11:20:23 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/96886b495145403717909280847/f0.mp4
+2026-03-10 11:20:23 | INFO | __main__:main:136 - 和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:20:23 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:20:46 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-数学-2.mp4
+2026-03-10 11:20:46 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/ac4695385145403717916999289/f0.mp4
+2026-03-10 11:20:46 | INFO | __main__:main:136 - 和平初三寒假全托集训-数学-3.mp4
+2026-03-10 11:20:46 | INFO | src.downloader:download:29 - 开始下载: 和平初三寒假全托集训-数学-3.mp4
+2026-03-10 11:20:52 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/和平初三寒假全托集训/和平初三寒假全托集训-数学-3.mp4
+2026-03-10 11:20:52 | INFO | __main__:main:126 - {'id': 1026426341, 'className': '2026寒假九年级历史集训课 - 4', 'courseId': 294556339, 'courseName': '2026寒假九年级历史集训课', 'classBtime': 1771909200, 'classEtime': 1771923600, 'classStatus': 3, 'teacherInfo': {'id': 16385311, 'uid': 37494594, 'mobile': '18222273091', 'email': '', 'accountStatus': 0, 'name': '从老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 24, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '0d2c1e797da2b5fd', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1026426341, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1769596607, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-10 11:20:52 | INFO | src.spider:get_video:46 - 开始获取视频地址:294556339-1026426341
+2026-03-10 11:20:52 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/d5f28b065145403717761539742/f0.mp4
+2026-03-10 11:20:52 | INFO | __main__:main:136 - 2026寒假九年级历史集训课-4-1.mp4
+2026-03-10 11:20:52 | INFO | src.downloader:download:29 - 开始下载: 2026寒假九年级历史集训课-4-1.mp4
+2026-03-10 11:22:21 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026寒假九年级历史集训课/2026寒假九年级历史集训课-4-1.mp4
+2026-03-10 11:22:21 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/bc616e525145403717876757835/f0.mp4
+2026-03-10 11:22:21 | INFO | __main__:main:136 - 2026寒假九年级历史集训课-4-2.mp4
+2026-03-10 11:22:21 | INFO | src.downloader:download:29 - 开始下载: 2026寒假九年级历史集训课-4-2.mp4
