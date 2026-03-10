@@ -14934,3 +14934,431 @@ Stacktrace:
 2026-03-09 12:48:01 | ERROR | src.auth:login:47 - 登录失败，请检查账号密码或验证码
 2026-03-09 12:48:01 | ERROR | __main__:main:52 - 登录失败，程序退出
 2026-03-09 12:48:01 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-09 22:38:30 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:41:08 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:42:49 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:45:19 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:45:21 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-09 22:45:21 | INFO | utils.cookies:load:40 - cookies 文件不存在
+2026-03-09 22:45:21 | INFO | __main__:main:50 - cookies 文件不存在，需要重新登录
+2026-03-09 22:45:21 | INFO | src.auth:login:16 - 开始登录 ClassIn
+2026-03-09 22:45:51 | ERROR | __main__:main:57 - 登录过程异常: Message: timeout: Timed out receiving message from renderer: 29.593
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+0   chromedriver                        0x0000000104a556b4 cxxbridge1$str$ptr + 3127600
+1   chromedriver                        0x0000000104a4da50 cxxbridge1$str$ptr + 3095756
+2   chromedriver                        0x000000010452a56c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75432
+3   chromedriver                        0x00000001045148c4 cxxbridge1$string$len + 4160
+4   chromedriver                        0x00000001045145e4 cxxbridge1$string$len + 3424
+5   chromedriver                        0x00000001045121a8 chromedriver + 221608
+6   chromedriver                        0x0000000104512d9c chromedriver + 224668
+7   chromedriver                        0x0000000104520768 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 34980
+8   chromedriver                        0x0000000104537240 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127868
+9   chromedriver                        0x0000000104513408 chromedriver + 226312
+10  chromedriver                        0x000000010453703c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 127352
+11  chromedriver                        0x00000001045b28e0 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633372
+12  chromedriver                        0x0000000104567b9c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326872
+13  chromedriver                        0x0000000104a14680 cxxbridge1$str$ptr + 2861308
+14  chromedriver                        0x0000000104a17dd4 cxxbridge1$str$ptr + 2875472
+15  chromedriver                        0x00000001049f9a7c cxxbridge1$str$ptr + 2751736
+16  chromedriver                        0x0000000104a18658 cxxbridge1$str$ptr + 2877652
+17  chromedriver                        0x00000001049e9ffc cxxbridge1$str$ptr + 2687608
+18  chromedriver                        0x0000000104a3cd78 cxxbridge1$str$ptr + 3026932
+19  chromedriver                        0x0000000104a3cef4 cxxbridge1$str$ptr + 3027312
+20  chromedriver                        0x0000000104a4d6a8 cxxbridge1$str$ptr + 3094820
+21  libsystem_pthread.dylib             0x000000018fa5fc08 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018fa5aba8 thread_start + 8
+
+2026-03-09 22:45:51 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-09 22:46:17 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:47:59 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:50:09 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:50:11 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-09 22:50:11 | INFO | utils.cookies:load:40 - cookies 文件不存在
+2026-03-09 22:50:11 | INFO | __main__:main:50 - cookies 文件不存在，需要重新登录
+2026-03-09 22:50:11 | INFO | src.auth:login:16 - 开始登录 ClassIn
+2026-03-09 22:50:33 | INFO | src.auth:login:43 - 登录成功，保存 cookies
+2026-03-09 22:50:33 | INFO | utils.cookies:save:28 - cookies 已保存，共 12 条
+2026-03-09 22:50:33 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-09 22:50:33 | INFO | __main__:main:65 - 登录流程完成，开始构建信息
+2026-03-09 22:51:16 | INFO | __main__:main:88 - 开始获取 2025-03-08 的课程
+2026-03-09 22:51:16 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2025-03-08 的课程
+2026-03-09 22:51:16 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2025-03-08 第 1 页的课程
+2026-03-09 22:51:17 | INFO | src.spider:get_courses_by_single_day:105 - 2025-03-08 第 1 页获取 35 条课程
+2026-03-09 22:51:17 | INFO | __main__:main:98 - 获取到 35 条课程
+2026-03-09 22:51:17 | INFO | __main__:main:126 - {'id': 880537645, 'className': '2025春季高一物理尖子1 - 2', 'courseId': 275574697, 'courseName': '2025春季高一物理尖子1', 'classBtime': 1741428000, 'classEtime': 1741435200, 'classStatus': 3, 'teacherInfo': {'id': 16385173, 'uid': 81964020, 'mobile': '17822073524', 'email': '', 'accountStatus': 0, 'name': '刘老师（教务）', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 9, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '5e5551eb054d7432', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880537645, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740215329, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:17 | INFO | src.spider:get_video:46 - 开始获取视频地址:275574697-880537645
+2026-03-09 22:51:17 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/6aac485d1397757906857853365/f0.mp4
+2026-03-09 22:51:17 | INFO | __main__:main:136 - 2025春季高一物理尖子1-2-1.mp4
+2026-03-09 22:51:17 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一物理尖子1-2-1.mp4
+2026-03-09 22:51:17 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一物理尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/6aac485d1397757906857853365/f0.mp4
+2026-03-09 22:51:17 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/4db3a3de1397757906891836394/f0.mp4
+2026-03-09 22:51:17 | INFO | __main__:main:136 - 2025春季高一物理尖子1-2-2.mp4
+2026-03-09 22:51:17 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一物理尖子1-2-2.mp4
+2026-03-09 22:51:18 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一物理尖子1-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/4db3a3de1397757906891836394/f0.mp4
+2026-03-09 22:51:18 | INFO | __main__:main:126 - {'id': 880299667, 'className': '2025春季九年级语文 - 2', 'courseId': 273662033, 'courseName': '2025春季九年级语文', 'classBtime': 1741428000, 'classEtime': 1741435200, 'classStatus': 3, 'teacherInfo': {'id': 16389135, 'uid': 82075238, 'mobile': '18920199262', 'email': '', 'accountStatus': 0, 'name': '弓老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 8, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'bab418207d2114dc', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880299667, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81959790, 'creatorName': '贾老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740196193, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:18 | INFO | src.spider:get_video:46 - 开始获取视频地址:273662033-880299667
+2026-03-09 22:51:18 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/168de0521397757906856532604/f0.mp4
+2026-03-09 22:51:18 | INFO | __main__:main:136 - 2025春季九年级语文-2-1.mp4
+2026-03-09 22:51:18 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级语文-2-1.mp4
+2026-03-09 22:51:18 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级语文-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/168de0521397757906856532604/f0.mp4
+2026-03-09 22:51:18 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/91581c111397757906892434134/f0.mp4
+2026-03-09 22:51:18 | INFO | __main__:main:136 - 2025春季九年级语文-2-2.mp4
+2026-03-09 22:51:18 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级语文-2-2.mp4
+2026-03-09 22:51:18 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级语文-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/91581c111397757906892434134/f0.mp4
+2026-03-09 22:51:18 | INFO | __main__:main:126 - {'id': 880943961, 'className': '2025春季高二英语尖子1 - 2', 'courseId': 275626283, 'courseName': '2025春季高二英语尖子1', 'classBtime': 1741419000, 'classEtime': 1741426200, 'classStatus': 3, 'teacherInfo': {'id': 16385267, 'uid': 81955932, 'mobile': '13612031401', 'email': '', 'accountStatus': 0, 'name': '钱老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '9592e9a7c0636b1d', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880943961, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740296370, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:18 | INFO | src.spider:get_video:46 - 开始获取视频地址:275626283-880943961
+2026-03-09 22:51:18 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/453de1de1397757906877915716/f0.mp4
+2026-03-09 22:51:18 | INFO | __main__:main:136 - 2025春季高二英语尖子1-2-1.mp4
+2026-03-09 22:51:18 | INFO | src.downloader:download:29 - 开始下载: 2025春季高二英语尖子1-2-1.mp4
+2026-03-09 22:51:19 | ERROR | src.downloader:download:53 - 下载失败 2025春季高二英语尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/453de1de1397757906877915716/f0.mp4
+2026-03-09 22:51:19 | INFO | __main__:main:126 - {'id': 880830757, 'className': '2025春季八年级物理尖子1 - 2', 'courseId': 275613339, 'courseName': '2025春季八年级物理尖子1', 'classBtime': 1741419000, 'classEtime': 1741426200, 'classStatus': 3, 'teacherInfo': {'id': 16385203, 'uid': 81932388, 'mobile': '15922255332', 'email': '', 'accountStatus': 0, 'name': '尚老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 11, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '3d0f01419e28a78b', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880830757, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740280801, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:19 | INFO | src.spider:get_video:46 - 开始获取视频地址:275613339-880830757
+2026-03-09 22:51:19 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/983723191397757906851664097/f0.mp4
+2026-03-09 22:51:19 | INFO | __main__:main:136 - 2025春季八年级物理尖子1-2-1.mp4
+2026-03-09 22:51:19 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级物理尖子1-2-1.mp4
+2026-03-09 22:51:20 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级物理尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/983723191397757906851664097/f0.mp4
+2026-03-09 22:51:20 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/f93447fa1397757906883754705/f0.mp4
+2026-03-09 22:51:20 | INFO | __main__:main:136 - 2025春季八年级物理尖子1-2-2.mp4
+2026-03-09 22:51:20 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级物理尖子1-2-2.mp4
+2026-03-09 22:51:20 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级物理尖子1-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/f93447fa1397757906883754705/f0.mp4
+2026-03-09 22:51:20 | INFO | __main__:main:126 - {'id': 880815317, 'className': '2025春季七年级数学尖子2 - 2', 'courseId': 275611233, 'courseName': '2025春季七年级数学尖子2', 'classBtime': 1741419000, 'classEtime': 1741426200, 'classStatus': 3, 'teacherInfo': {'id': 16385163, 'uid': 81930662, 'mobile': '15822362573', 'email': '', 'accountStatus': 0, 'name': '李佳', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 11, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '853072005ebb1ab6', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880815317, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1767160835', 'courseType': '1', 'createTime': 1740278707, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:20 | INFO | src.spider:get_video:46 - 开始获取视频地址:275611233-880815317
+2026-03-09 22:51:20 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/7bea3c961397757906728731960/f0.mp4
+2026-03-09 22:51:20 | INFO | __main__:main:136 - 2025春季七年级数学尖子2-2-1.mp4
+2026-03-09 22:51:20 | INFO | src.downloader:download:29 - 开始下载: 2025春季七年级数学尖子2-2-1.mp4
+2026-03-09 22:51:20 | ERROR | src.downloader:download:53 - 下载失败 2025春季七年级数学尖子2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/7bea3c961397757906728731960/f0.mp4
+2026-03-09 22:51:20 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/f1d9d0551397757906883403952/f0.mp4
+2026-03-09 22:51:20 | INFO | __main__:main:136 - 2025春季七年级数学尖子2-2-2.mp4
+2026-03-09 22:51:20 | INFO | src.downloader:download:29 - 开始下载: 2025春季七年级数学尖子2-2-2.mp4
+2026-03-09 22:51:21 | ERROR | src.downloader:download:53 - 下载失败 2025春季七年级数学尖子2-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/f1d9d0551397757906883403952/f0.mp4
+2026-03-09 22:51:21 | INFO | __main__:main:126 - {'id': 880536309, 'className': '2025春季高一化学尖子1 - 2', 'courseId': 275574577, 'courseName': '2025春季高一化学尖子1', 'classBtime': 1741419000, 'classEtime': 1741426200, 'classStatus': 3, 'teacherInfo': {'id': 16402511, 'uid': 82172570, 'mobile': '16622058314', 'email': '', 'accountStatus': 0, 'name': '张老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 9, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '91ba630bf0fb2721', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880536309, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740215179, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:21 | INFO | src.spider:get_video:46 - 开始获取视频地址:275574577-880536309
+2026-03-09 22:51:21 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/f6ec61dc1397757906764666329/f0.mp4
+2026-03-09 22:51:21 | INFO | __main__:main:136 - 2025春季高一化学尖子1-2-1.mp4
+2026-03-09 22:51:21 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一化学尖子1-2-1.mp4
+2026-03-09 22:51:21 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一化学尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/f6ec61dc1397757906764666329/f0.mp4
+2026-03-09 22:51:21 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/91c56bcb1397757906780205811/f0.mp4
+2026-03-09 22:51:21 | INFO | __main__:main:136 - 2025春季高一化学尖子1-2-2.mp4
+2026-03-09 22:51:21 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一化学尖子1-2-2.mp4
+2026-03-09 22:51:21 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一化学尖子1-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/91c56bcb1397757906780205811/f0.mp4
+2026-03-09 22:51:21 | INFO | __main__:main:126 - {'id': 880528553, 'className': '2025春季高一物理培优 - 2', 'courseId': 275573711, 'courseName': '2025春季高一物理培优', 'classBtime': 1741419000, 'classEtime': 1741426200, 'classStatus': 3, 'teacherInfo': {'id': 16385173, 'uid': 81964020, 'mobile': '17822073524', 'email': '', 'accountStatus': 0, 'name': '刘老师（教务）', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 3, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'a64673d72ddf4132', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880528553, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740214374, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:21 | INFO | src.spider:get_video:46 - 开始获取视频地址:275573711-880528553
+2026-03-09 22:51:21 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/ead2c03b1397757906876390933/f0.mp4
+2026-03-09 22:51:21 | INFO | __main__:main:136 - 2025春季高一物理培优-2-1.mp4
+2026-03-09 22:51:21 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一物理培优-2-1.mp4
+2026-03-09 22:51:22 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一物理培优-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/ead2c03b1397757906876390933/f0.mp4
+2026-03-09 22:51:22 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/c0a415b81397757906777246264/f0.mp4
+2026-03-09 22:51:22 | INFO | __main__:main:136 - 2025春季高一物理培优-2-2.mp4
+2026-03-09 22:51:22 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一物理培优-2-2.mp4
+2026-03-09 22:51:22 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一物理培优-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/c0a415b81397757906777246264/f0.mp4
+2026-03-09 22:51:22 | INFO | __main__:main:126 - {'id': 880299013, 'className': '2025春季九年级数学尖子 - 2', 'courseId': 273661937, 'courseName': '2025春季九年级数学尖子', 'classBtime': 1741419000, 'classEtime': 1741426200, 'classStatus': 3, 'teacherInfo': {'id': 16385223, 'uid': 43325262, 'mobile': '13920805833', 'email': '', 'accountStatus': 0, 'name': '罗老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 19, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'a1c4844bc89d77b0', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880299013, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81959790, 'creatorName': '贾老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740196091, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:22 | INFO | src.spider:get_video:46 - 开始获取视频地址:273661937-880299013
+2026-03-09 22:51:22 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/8ba3933e1397757906878672760/f0.mp4
+2026-03-09 22:51:22 | INFO | __main__:main:136 - 2025春季九年级数学尖子-2-1.mp4
+2026-03-09 22:51:22 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级数学尖子-2-1.mp4
+2026-03-09 22:51:22 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级数学尖子-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/8ba3933e1397757906878672760/f0.mp4
+2026-03-09 22:51:22 | INFO | __main__:main:126 - {'id': 880292657, 'className': '2025春季九年级英语培优2 - 2', 'courseId': 273660901, 'courseName': '2025春季九年级英语培优2', 'classBtime': 1741419000, 'classEtime': 1741426158, 'classStatus': 3, 'teacherInfo': {'id': 16374497, 'uid': 35440070, 'mobile': '18602211106', 'email': '', 'accountStatus': 0, 'name': '李老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 5, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '89bfb1d598ea46b6', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880292657, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81959790, 'creatorName': '贾老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1769773817', 'courseType': '1', 'createTime': 1740195337, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:22 | INFO | src.spider:get_video:46 - 开始获取视频地址:273660901-880292657
+2026-03-09 22:51:22 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/4dcb37a01397757906850799834/f0.mp4
+2026-03-09 22:51:22 | INFO | __main__:main:136 - 2025春季九年级英语培优2-2-1.mp4
+2026-03-09 22:51:22 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级英语培优2-2-1.mp4
+2026-03-09 22:51:22 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级英语培优2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/4dcb37a01397757906850799834/f0.mp4
+2026-03-09 22:51:22 | INFO | __main__:main:126 - {'id': 880942841, 'className': '2025春季高二物理周六班 - 2', 'courseId': 275626077, 'courseName': '2025春季高二物理周六班', 'classBtime': 1741410900, 'classEtime': 1741418100, 'classStatus': 3, 'teacherInfo': {'id': 16385173, 'uid': 81964020, 'mobile': '17822073524', 'email': '', 'accountStatus': 0, 'name': '刘老师（教务）', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '0e634efa8646a8de', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880942841, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740296172, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:22 | INFO | src.spider:get_video:46 - 开始获取视频地址:275626077-880942841
+2026-03-09 22:51:23 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/2af4c2b81397757906870991524/f0.mp4
+2026-03-09 22:51:23 | INFO | __main__:main:136 - 2025春季高二物理周六班-2-1.mp4
+2026-03-09 22:51:23 | INFO | src.downloader:download:29 - 开始下载: 2025春季高二物理周六班-2-1.mp4
+2026-03-09 22:51:23 | ERROR | src.downloader:download:53 - 下载失败 2025春季高二物理周六班-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/2af4c2b81397757906870991524/f0.mp4
+2026-03-09 22:51:23 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/7fd627981397757906878153850/f0.mp4
+2026-03-09 22:51:23 | INFO | __main__:main:136 - 2025春季高二物理周六班-2-2.mp4
+2026-03-09 22:51:23 | INFO | src.downloader:download:29 - 开始下载: 2025春季高二物理周六班-2-2.mp4
+2026-03-09 22:51:23 | ERROR | src.downloader:download:53 - 下载失败 2025春季高二物理周六班-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/7fd627981397757906878153850/f0.mp4
+2026-03-09 22:51:23 | INFO | __main__:main:126 - {'id': 880825299, 'className': '2025春季八年级英语尖子1 - 2', 'courseId': 275612571, 'courseName': '2025春季八年级英语尖子1', 'classBtime': 1741410900, 'classEtime': 1741418100, 'classStatus': 3, 'teacherInfo': {'id': 16374497, 'uid': 35440070, 'mobile': '18602211106', 'email': '', 'accountStatus': 0, 'name': '李老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 11, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '6efc01de854adfb5', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880825299, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740280048, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:23 | INFO | src.spider:get_video:46 - 开始获取视频地址:275612571-880825299
+2026-03-09 22:51:23 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/25a939d01397757906870704506/f0.mp4
+2026-03-09 22:51:23 | INFO | __main__:main:136 - 2025春季八年级英语尖子1-2-1.mp4
+2026-03-09 22:51:23 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级英语尖子1-2-1.mp4
+2026-03-09 22:51:23 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级英语尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/25a939d01397757906870704506/f0.mp4
+2026-03-09 22:51:23 | INFO | __main__:main:126 - {'id': 880813459, 'className': '2025春季七年级英语尖子2 - 2', 'courseId': 275611017, 'courseName': '2025春季七年级英语尖子2', 'classBtime': 1741410900, 'classEtime': 1741418045, 'classStatus': 3, 'teacherInfo': {'id': 16385267, 'uid': 81955932, 'mobile': '13612031401', 'email': '', 'accountStatus': 0, 'name': '钱老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 9, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '6f35542190fae0b1', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880813459, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1767160869', 'courseType': '1', 'createTime': 1740278424, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:23 | INFO | src.spider:get_video:46 - 开始获取视频地址:275611017-880813459
+2026-03-09 22:51:23 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/f34f592e1397757906716626502/f0.mp4
+2026-03-09 22:51:23 | INFO | __main__:main:136 - 2025春季七年级英语尖子2-2-1.mp4
+2026-03-09 22:51:23 | INFO | src.downloader:download:29 - 开始下载: 2025春季七年级英语尖子2-2-1.mp4
+2026-03-09 22:51:24 | ERROR | src.downloader:download:53 - 下载失败 2025春季七年级英语尖子2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/f34f592e1397757906716626502/f0.mp4
+2026-03-09 22:51:24 | INFO | __main__:main:126 - {'id': 880534505, 'className': '2025春季高一数学尖子1 - 2', 'courseId': 275574317, 'courseName': '2025春季高一数学尖子1', 'classBtime': 1741410900, 'classEtime': 1741418100, 'classStatus': 3, 'teacherInfo': {'id': 16385223, 'uid': 43325262, 'mobile': '13920805833', 'email': '', 'accountStatus': 0, 'name': '罗老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 10, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'c9195f25c5336ef6', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880534505, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740214939, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:24 | INFO | src.spider:get_video:46 - 开始获取视频地址:275574317-880534505
+2026-03-09 22:51:24 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/12095a331397757906761724382/f0.mp4
+2026-03-09 22:51:24 | INFO | __main__:main:136 - 2025春季高一数学尖子1-2-1.mp4
+2026-03-09 22:51:24 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一数学尖子1-2-1.mp4
+2026-03-09 22:51:24 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一数学尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/12095a331397757906761724382/f0.mp4
+2026-03-09 22:51:24 | INFO | __main__:main:126 - {'id': 880526759, 'className': '2025春季高一化学培优 - 2', 'courseId': 275573509, 'courseName': '2025春季高一化学培优', 'classBtime': 1741410900, 'classEtime': 1741418100, 'classStatus': 3, 'teacherInfo': {'id': 16402511, 'uid': 82172570, 'mobile': '16622058314', 'email': '', 'accountStatus': 0, 'name': '张老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 5, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '812874cc6d9e9cdd', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880526759, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740214177, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:24 | INFO | src.spider:get_video:46 - 开始获取视频地址:275573509-880526759
+2026-03-09 22:51:24 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/84c315721397757906844048191/f0.mp4
+2026-03-09 22:51:24 | INFO | __main__:main:136 - 2025春季高一化学培优-2-1.mp4
+2026-03-09 22:51:24 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一化学培优-2-1.mp4
+2026-03-09 22:51:24 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一化学培优-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/84c315721397757906844048191/f0.mp4
+2026-03-09 22:51:24 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/f1b14adf1397757906876676732/f0.mp4
+2026-03-09 22:51:24 | INFO | __main__:main:136 - 2025春季高一化学培优-2-2.mp4
+2026-03-09 22:51:24 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一化学培优-2-2.mp4
+2026-03-09 22:51:25 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一化学培优-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/f1b14adf1397757906876676732/f0.mp4
+2026-03-09 22:51:25 | INFO | __main__:main:126 - {'id': 880298005, 'className': '2025春季九年级物理尖子 - 2', 'courseId': 273661833, 'courseName': '2025春季九年级物理尖子', 'classBtime': 1741410900, 'classEtime': 1741418100, 'classStatus': 3, 'teacherInfo': {'id': 16385203, 'uid': 81932388, 'mobile': '15922255332', 'email': '', 'accountStatus': 0, 'name': '尚老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 17, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '2be30821a64014f5', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880298005, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81959790, 'creatorName': '贾老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1769773817', 'courseType': '1', 'createTime': 1740195949, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:25 | INFO | src.spider:get_video:46 - 开始获取视频地址:273661833-880298005
+2026-03-09 22:51:25 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/48094c161397757906843735643/f0.mp4
+2026-03-09 22:51:25 | INFO | __main__:main:136 - 2025春季九年级物理尖子-2-1.mp4
+2026-03-09 22:51:25 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级物理尖子-2-1.mp4
+2026-03-09 22:51:25 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级物理尖子-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/48094c161397757906843735643/f0.mp4
+2026-03-09 22:51:25 | INFO | __main__:main:126 - {'id': 880291405, 'className': '2025春季九年级数学培优2 - 2', 'courseId': 273661429, 'courseName': '2025春季九年级数学培优2', 'classBtime': 1741410900, 'classEtime': 1741418100, 'classStatus': 3, 'teacherInfo': {'id': 16385163, 'uid': 81930662, 'mobile': '15822362573', 'email': '', 'accountStatus': 0, 'name': '李佳', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 8, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '12692418486e8b39', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880291405, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81959790, 'creatorName': '贾老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1769773817', 'courseType': '1', 'createTime': 1740195178, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:25 | INFO | src.spider:get_video:46 - 开始获取视频地址:273661429-880291405
+2026-03-09 22:51:25 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/a4ee50cd1397757906722361067/f0.mp4
+2026-03-09 22:51:25 | INFO | __main__:main:136 - 2025春季九年级数学培优2-2-1.mp4
+2026-03-09 22:51:25 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级数学培优2-2-1.mp4
+2026-03-09 22:51:25 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级数学培优2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/a4ee50cd1397757906722361067/f0.mp4
+2026-03-09 22:51:25 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/95ccdb191397757906732559672/f0.mp4
+2026-03-09 22:51:25 | INFO | __main__:main:136 - 2025春季九年级数学培优2-2-2.mp4
+2026-03-09 22:51:25 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级数学培优2-2-2.mp4
+2026-03-09 22:51:26 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级数学培优2-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/95ccdb191397757906732559672/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:126 - {'id': 880987227, 'className': '2025春季四年级培优英语课 - 2', 'courseId': 273525321, 'courseName': '2025春季四年级培优英语课', 'classBtime': 1741400100, 'classEtime': 1741407300, 'classStatus': 3, 'teacherInfo': {'id': 16375305, 'uid': 81964432, 'mobile': '13820755152', 'email': '', 'accountStatus': 0, 'name': '孙老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 2, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '7ef4f14126c6a2b1', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880987227, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773817', 'courseType': '1', 'createTime': 1740302488, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:26 | INFO | src.spider:get_video:46 - 开始获取视频地址:273525321-880987227
+2026-03-09 22:51:26 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/05bf544c1397757906832372602/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:136 - 2025春季四年级培优英语课-2-1.mp4
+2026-03-09 22:51:26 | INFO | src.downloader:download:29 - 开始下载: 2025春季四年级培优英语课-2-1.mp4
+2026-03-09 22:51:26 | ERROR | src.downloader:download:53 - 下载失败 2025春季四年级培优英语课-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/05bf544c1397757906832372602/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/a628c5591397757906708892444/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:136 - 2025春季四年级培优英语课-2-2.mp4
+2026-03-09 22:51:26 | INFO | src.downloader:download:29 - 开始下载: 2025春季四年级培优英语课-2-2.mp4
+2026-03-09 22:51:26 | ERROR | src.downloader:download:53 - 下载失败 2025春季四年级培优英语课-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/a628c5591397757906708892444/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:126 - {'id': 880926677, 'className': '2025春季高二化学周六班 - 2', 'courseId': 275624345, 'courseName': '2025春季高二化学周六班', 'classBtime': 1741400100, 'classEtime': 1741406850, 'classStatus': 3, 'teacherInfo': {'id': 16398193, 'uid': 82147662, 'mobile': '18902157153', 'email': '', 'accountStatus': 0, 'name': '常老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 4, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'b6a8c8b736a6793d', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880926677, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740294012, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:26 | INFO | src.spider:get_video:46 - 开始获取视频地址:275624345-880926677
+2026-03-09 22:51:26 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/e482db731397757906709205566/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:136 - 2025春季高二化学周六班-2-1.mp4
+2026-03-09 22:51:26 | INFO | src.downloader:download:29 - 开始下载: 2025春季高二化学周六班-2-1.mp4
+2026-03-09 22:51:26 | ERROR | src.downloader:download:53 - 下载失败 2025春季高二化学周六班-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/e482db731397757906709205566/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:126 - {'id': 880832977, 'className': '2025春季八年级数学尖子2 - 2', 'courseId': 275613697, 'courseName': '2025春季八年级数学尖子2', 'classBtime': 1741400100, 'classEtime': 1741407300, 'classStatus': 3, 'teacherInfo': {'id': 16385163, 'uid': 81930662, 'mobile': '15822362573', 'email': '', 'accountStatus': 0, 'name': '李佳', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 6, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'f1ac09bbeddb43f6', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880832977, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740281121, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:26 | INFO | src.spider:get_video:46 - 开始获取视频地址:275613697-880832977
+2026-03-09 22:51:26 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/4fa329791397757906748518544/f0.mp4
+2026-03-09 22:51:26 | INFO | __main__:main:136 - 2025春季八年级数学尖子2-2-1.mp4
+2026-03-09 22:51:26 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级数学尖子2-2-1.mp4
+2026-03-09 22:51:27 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级数学尖子2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/4fa329791397757906748518544/f0.mp4
+2026-03-09 22:51:27 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/dd0487dd1397757906838784309/f0.mp4
+2026-03-09 22:51:27 | INFO | __main__:main:136 - 2025春季八年级数学尖子2-2-2.mp4
+2026-03-09 22:51:27 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级数学尖子2-2-2.mp4
+2026-03-09 22:51:27 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级数学尖子2-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/dd0487dd1397757906838784309/f0.mp4
+2026-03-09 22:51:27 | INFO | __main__:main:126 - {'id': 880823557, 'className': '2025春季八年级数学尖子1 - 2', 'courseId': 275612463, 'courseName': '2025春季八年级数学尖子1', 'classBtime': 1741400100, 'classEtime': 1741407300, 'classStatus': 3, 'teacherInfo': {'id': 16385223, 'uid': 43325262, 'mobile': '13920805833', 'email': '', 'accountStatus': 0, 'name': '罗老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 9, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'a3d29ecd7546db4e', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880823557, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740279832, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:27 | INFO | src.spider:get_video:46 - 开始获取视频地址:275612463-880823557
+2026-03-09 22:51:27 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/bab0decc1397757906831418071/f0.mp4
+2026-03-09 22:51:27 | INFO | __main__:main:136 - 2025春季八年级数学尖子1-2-1.mp4
+2026-03-09 22:51:27 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级数学尖子1-2-1.mp4
+2026-03-09 22:51:27 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级数学尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/bab0decc1397757906831418071/f0.mp4
+2026-03-09 22:51:27 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/49282bf91397757906867288214/f0.mp4
+2026-03-09 22:51:27 | INFO | __main__:main:136 - 2025春季八年级数学尖子1-2-2.mp4
+2026-03-09 22:51:27 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级数学尖子1-2-2.mp4
+2026-03-09 22:51:28 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级数学尖子1-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/49282bf91397757906867288214/f0.mp4
+2026-03-09 22:51:28 | INFO | __main__:main:126 - {'id': 880817753, 'className': '2025春节七年级英语培优 - 2', 'courseId': 275611663, 'courseName': '2025春节七年级英语培优', 'classBtime': 1741400100, 'classEtime': 1741407247, 'classStatus': 3, 'teacherInfo': {'id': 16375261, 'uid': 78690434, 'mobile': '13920016469', 'email': '', 'accountStatus': 0, 'name': '贾老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 5, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '815e5bffd17e1e6d', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880817753, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1767160838', 'courseType': '1', 'createTime': 1740278997, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:28 | INFO | src.spider:get_video:46 - 开始获取视频地址:275611663-880817753
+2026-03-09 22:51:28 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/7b136a131397757906861256525/f0.mp4
+2026-03-09 22:51:28 | INFO | __main__:main:136 - 2025春节七年级英语培优-2-1.mp4
+2026-03-09 22:51:28 | INFO | src.downloader:download:29 - 开始下载: 2025春节七年级英语培优-2-1.mp4
+2026-03-09 22:51:28 | ERROR | src.downloader:download:53 - 下载失败 2025春节七年级英语培优-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/7b136a131397757906861256525/f0.mp4
+2026-03-09 22:51:28 | INFO | __main__:main:126 - {'id': 880532169, 'className': '2025春季高一英语尖子1 - 2', 'courseId': 275574075, 'courseName': '2025春季高一英语尖子1', 'classBtime': 1741400100, 'classEtime': 1741407300, 'classStatus': 3, 'teacherInfo': {'id': 16385267, 'uid': 81955932, 'mobile': '13612031401', 'email': '', 'accountStatus': 0, 'name': '钱老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 7, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '0a75850666ba54aa', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880532169, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740214729, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:28 | INFO | src.spider:get_video:46 - 开始获取视频地址:275574075-880532169
+2026-03-09 22:51:28 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/816f08731397757906701418658/f0.mp4
+2026-03-09 22:51:28 | INFO | __main__:main:136 - 2025春季高一英语尖子1-2-1.mp4
+2026-03-09 22:51:28 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一英语尖子1-2-1.mp4
+2026-03-09 22:51:28 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一英语尖子1-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/816f08731397757906701418658/f0.mp4
+2026-03-09 22:51:28 | INFO | __main__:main:126 - {'id': 880519909, 'className': '2025春季高一数学培优 - 2', 'courseId': 275572605, 'courseName': '2025春季高一数学培优', 'classBtime': 1741400100, 'classEtime': 1741407300, 'classStatus': 3, 'teacherInfo': {'id': 16395427, 'uid': 45004726, 'mobile': '18526727923', 'email': '', 'accountStatus': 0, 'name': '苏老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 5, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '380fc3fb952e7b73', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880519909, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740213401, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:28 | INFO | src.spider:get_video:46 - 开始获取视频地址:275572605-880519909
+2026-03-09 22:51:28 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/69db6d1c1397757906752387890/f0.mp4
+2026-03-09 22:51:28 | INFO | __main__:main:136 - 2025春季高一数学培优-2-1.mp4
+2026-03-09 22:51:28 | INFO | src.downloader:download:29 - 开始下载: 2025春季高一数学培优-2-1.mp4
+2026-03-09 22:51:29 | ERROR | src.downloader:download:53 - 下载失败 2025春季高一数学培优-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/69db6d1c1397757906752387890/f0.mp4
+2026-03-09 22:51:29 | INFO | __main__:main:126 - {'id': 880507947, 'className': '2025春季七年级语文尖子2 - 2', 'courseId': 275569321, 'courseName': '2025春季七年级语文尖子2', 'classBtime': 1741400100, 'classEtime': 1741407300, 'classStatus': 3, 'teacherInfo': {'id': 16389133, 'uid': 82074022, 'mobile': '15302057125', 'email': '', 'accountStatus': 0, 'name': '贺老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 4, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'd96b6d5c28540c97', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880507947, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1767160825', 'courseType': '1', 'createTime': 1740212485, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:29 | INFO | src.spider:get_video:46 - 开始获取视频地址:275569321-880507947
+2026-03-09 22:51:29 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/7d7882fa1397757906861362786/f0.mp4
+2026-03-09 22:51:29 | INFO | __main__:main:136 - 2025春季七年级语文尖子2-2-1.mp4
+2026-03-09 22:51:29 | INFO | src.downloader:download:29 - 开始下载: 2025春季七年级语文尖子2-2-1.mp4
+2026-03-09 22:51:29 | ERROR | src.downloader:download:53 - 下载失败 2025春季七年级语文尖子2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/7d7882fa1397757906861362786/f0.mp4
+2026-03-09 22:51:29 | INFO | __main__:main:126 - {'id': 880296337, 'className': '2025春季九年级化学尖子 - 2', 'courseId': 273661723, 'courseName': '2025春季九年级化学尖子', 'classBtime': 1741400100, 'classEtime': 1741407300, 'classStatus': 3, 'teacherInfo': {'id': 16385171, 'uid': 81957446, 'mobile': '13110062586', 'email': '', 'accountStatus': 0, 'name': '王老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 24, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'e21026e4b31c7f4c', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880296337, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81959790, 'creatorName': '贾老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1769773817', 'courseType': '1', 'createTime': 1740195767, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:29 | INFO | src.spider:get_video:46 - 开始获取视频地址:273661723-880296337
+2026-03-09 22:51:30 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/3bbd1b151397757906860805591/f0.mp4
+2026-03-09 22:51:30 | INFO | __main__:main:136 - 2025春季九年级化学尖子-2-1.mp4
+2026-03-09 22:51:30 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级化学尖子-2-1.mp4
+2026-03-09 22:51:30 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级化学尖子-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/3bbd1b151397757906860805591/f0.mp4
+2026-03-09 22:51:30 | INFO | __main__:main:126 - {'id': 880289947, 'className': '2025春季九年级物理培优2 - 2', 'courseId': 273660419, 'courseName': '2025春季九年级物理培优2', 'classBtime': 1741400100, 'classEtime': 1741407206, 'classStatus': 3, 'teacherInfo': {'id': 16385053, 'uid': 15872616, 'mobile': '15922193031', 'email': '', 'accountStatus': 0, 'name': '谭老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 5, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '11f5cef842b4590b', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880289947, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81959790, 'creatorName': '贾老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '1769773817', 'courseType': '1', 'createTime': 1740195008, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:30 | INFO | src.spider:get_video:46 - 开始获取视频地址:273660419-880289947
+2026-03-09 22:51:30 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/5c2153f61397757906833784217/f0.mp4
+2026-03-09 22:51:30 | INFO | __main__:main:136 - 2025春季九年级物理培优2-2-1.mp4
+2026-03-09 22:51:30 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级物理培优2-2-1.mp4
+2026-03-09 22:51:30 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级物理培优2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/5c2153f61397757906833784217/f0.mp4
+2026-03-09 22:51:30 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/98e323331397757906756156352/f0.mp4
+2026-03-09 22:51:30 | INFO | __main__:main:136 - 2025春季九年级物理培优2-2-2.mp4
+2026-03-09 22:51:30 | INFO | src.downloader:download:29 - 开始下载: 2025春季九年级物理培优2-2-2.mp4
+2026-03-09 22:51:30 | ERROR | src.downloader:download:53 - 下载失败 2025春季九年级物理培优2-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/98e323331397757906756156352/f0.mp4
+2026-03-09 22:51:30 | INFO | __main__:main:126 - {'id': 880986159, 'className': '2025春季四年级培优数学课 - 2', 'courseId': 273525531, 'courseName': '2025春季四年级培优数学课', 'classBtime': 1741392000, 'classEtime': 1741399200, 'classStatus': 3, 'teacherInfo': {'id': 16375045, 'uid': 81957266, 'mobile': '18920005656', 'email': '', 'accountStatus': 0, 'name': '周老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 1, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'c6949856477c4d69', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880986159, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773817', 'courseType': '1', 'createTime': 1740302292, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:30 | INFO | src.spider:get_video:46 - 开始获取视频地址:273525531-880986159
+2026-03-09 22:51:30 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/98025f321397757906749323191/f0.mp4
+2026-03-09 22:51:30 | INFO | __main__:main:136 - 2025春季四年级培优数学课-2-1.mp4
+2026-03-09 22:51:30 | INFO | src.downloader:download:29 - 开始下载: 2025春季四年级培优数学课-2-1.mp4
+2026-03-09 22:51:31 | ERROR | src.downloader:download:53 - 下载失败 2025春季四年级培优数学课-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/98025f321397757906749323191/f0.mp4
+2026-03-09 22:51:31 | INFO | __main__:main:126 - {'id': 880924845, 'className': '2025春季高二数学培优 - 2', 'courseId': 275624155, 'courseName': '2025春季高二数学培优', 'classBtime': 1741392000, 'classEtime': 1741399200, 'classStatus': 3, 'teacherInfo': {'id': 16395427, 'uid': 45004726, 'mobile': '18526727923', 'email': '', 'accountStatus': 0, 'name': '苏老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 3, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '8bc83a6112c06335', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 1, 'clientClassId': 880924845, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740293813, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:31 | INFO | src.spider:get_video:46 - 开始获取视频地址:275624155-880924845
+2026-03-09 22:51:31 | INFO | __main__:main:126 - {'id': 880923009, 'className': '2025春季高二数学尖子1 - 2', 'courseId': 275623989, 'courseName': '2025春季高二数学尖子1', 'classBtime': 1741392000, 'classEtime': 1741399200, 'classStatus': 3, 'teacherInfo': {'id': 16385223, 'uid': 43325262, 'mobile': '13920805833', 'email': '', 'accountStatus': 0, 'name': '罗老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 3, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'a3a41fd2bfc66295', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 1, 'clientClassId': 880923009, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81964020, 'creatorName': '刘老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740293622, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:31 | INFO | src.spider:get_video:46 - 开始获取视频地址:275623989-880923009
+2026-03-09 22:51:31 | INFO | __main__:main:126 - {'id': 880832435, 'className': '2025春季八年级物理尖子2 - 2', 'courseId': 275613547, 'courseName': '2025春季八年级物理尖子2', 'classBtime': 1741392000, 'classEtime': 1741399200, 'classStatus': 3, 'teacherInfo': {'id': 16385053, 'uid': 15872616, 'mobile': '15922193031', 'email': '', 'accountStatus': 0, 'name': '谭老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 4, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '0df4c6db2faaddfc', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880832435, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740281023, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:31 | INFO | src.spider:get_video:46 - 开始获取视频地址:275613547-880832435
+2026-03-09 22:51:31 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/3ba8d8aa1397757906700745233/f0.mp4
+2026-03-09 22:51:31 | INFO | __main__:main:136 - 2025春季八年级物理尖子2-2-1.mp4
+2026-03-09 22:51:31 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级物理尖子2-2-1.mp4
+2026-03-09 22:51:31 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级物理尖子2-2-1.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/3ba8d8aa1397757906700745233/f0.mp4
+2026-03-09 22:51:31 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/024cb9bc1397757906859755505/f0.mp4
+2026-03-09 22:51:31 | INFO | __main__:main:136 - 2025春季八年级物理尖子2-2-2.mp4
+2026-03-09 22:51:31 | INFO | src.downloader:download:29 - 开始下载: 2025春季八年级物理尖子2-2-2.mp4
+2026-03-09 22:51:32 | ERROR | src.downloader:download:53 - 下载失败 2025春季八年级物理尖子2-2-2.mp4: 404 Client Error: Not Found for url: https://playback.eeo.cn/794b4a11vodbj1252412222/024cb9bc1397757906859755505/f0.mp4
+2026-03-09 22:51:32 | INFO | __main__:main:126 - {'id': 880821455, 'className': '2025春节八年级语文尖子1 - 2', 'courseId': 275612095, 'courseName': '2025春季八年级语文尖子1', 'classBtime': 1741392000, 'classEtime': 1741399200, 'classStatus': 3, 'teacherInfo': {'id': 16389133, 'uid': 82074022, 'mobile': '15302057125', 'email': '', 'accountStatus': 0, 'name': '贺老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 3, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 0, 'recordState': 1, 'openState': 0, 'watchByLogin': 0, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'dc46b453f402ec99', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 2, 'clientClassId': 880821455, 'isLock': 0, 'teachMode': 2, 'cameraHide': 1, 'screenMode': 2, 'creatorUid': 81114724, 'creatorName': '臧老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 1, 'expiryTime': '1769773804', 'courseType': '1', 'createTime': 1740279578, 'classSource': 1, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 22:51:32 | INFO | src.spider:get_video:46 - 开始获取视频地址:275612095-880821455
+2026-03-09 22:51:32 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/f4fff1921397757906828923601/f0.mp4
+2026-03-09 22:51:32 | INFO | __main__:main:136 - 2025春节八年级语文尖子1-2-1.mp4
+2026-03-09 22:51:32 | INFO | src.downloader:download:29 - 开始下载: 2025春节八年级语文尖子1-2-1.mp4
+2026-03-09 22:54:11 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:54:57 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:56:15 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:57:03 | INFO | __main__:main:13 - 程序启动
+2026-03-09 22:59:45 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-09 22:59:46 | DEBUG | utils.cookies:load:59 - 注入 cookie 失败: __tk_id -> Message: invalid cookie domain: Cookie 'domain' mismatch
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+0   chromedriver                        0x00000001028856b4 cxxbridge1$str$ptr + 3127600
+1   chromedriver                        0x000000010287da50 cxxbridge1$str$ptr + 3095756
+2   chromedriver                        0x000000010235a56c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75432
+3   chromedriver                        0x00000001023f1ecc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 696328
+4   chromedriver                        0x00000001023e2620 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632668
+5   chromedriver                        0x0000000102397b9c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326872
+6   chromedriver                        0x0000000102844680 cxxbridge1$str$ptr + 2861308
+7   chromedriver                        0x0000000102847dd4 cxxbridge1$str$ptr + 2875472
+8   chromedriver                        0x0000000102829a7c cxxbridge1$str$ptr + 2751736
+9   chromedriver                        0x0000000102848658 cxxbridge1$str$ptr + 2877652
+10  chromedriver                        0x0000000102819ffc cxxbridge1$str$ptr + 2687608
+11  chromedriver                        0x000000010286cd78 cxxbridge1$str$ptr + 3026932
+12  chromedriver                        0x000000010286cef4 cxxbridge1$str$ptr + 3027312
+13  chromedriver                        0x000000010287d6a8 cxxbridge1$str$ptr + 3094820
+14  libsystem_pthread.dylib             0x000000018fa5fc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018fa5aba8 thread_start + 8
+
+2026-03-09 22:59:46 | INFO | utils.cookies:load:65 - cookies 加载完成，成功 11 / 12
+2026-03-09 22:59:46 | INFO | __main__:main:25 - cookies 已加载，检查是否过期
+2026-03-09 22:59:46 | INFO | utils.cookies:is_cookie_expired:132 - cookies 未过期
+2026-03-09 22:59:49 | INFO | __main__:main:48 - cookies 验证成功，可以继续使用
+2026-03-09 22:59:49 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-09 22:59:49 | INFO | __main__:main:65 - 登录流程完成，开始构建信息
+2026-03-09 23:00:23 | INFO | __main__:main:88 - 开始获取 2026-03-07 的课程
+2026-03-09 23:00:23 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2026-03-07 的课程
+2026-03-09 23:00:23 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2026-03-07 第 1 页的课程
+2026-03-09 23:00:24 | INFO | src.spider:get_courses_by_single_day:105 - 2026-03-07 第 1 页获取 8 条课程
+2026-03-09 23:00:24 | INFO | __main__:main:98 - 获取到 8 条课程
+2026-03-09 23:00:24 | INFO | __main__:main:126 - {'id': 1043270867, 'className': '2026春季九年级英语尖子1 - 1', 'courseId': 299658369, 'courseName': '2026春季九年级英语尖子1', 'classBtime': 1772877600, 'classEtime': 1772884800, 'classStatus': 3, 'teacherInfo': {'id': 16374497, 'uid': 35440070, 'mobile': '18602211106', 'email': '', 'accountStatus': 0, 'name': '李老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 13, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'ce4fad3e11387218', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1043270867, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1772625136, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 23:00:24 | INFO | src.spider:get_video:46 - 开始获取视频地址:299658369-1043270867
+2026-03-09 23:00:24 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/69e9d7105145403719311305061/f0.mp4
+2026-03-09 23:00:24 | INFO | __main__:main:136 - 2026春季九年级英语尖子1-1-1.mp4
+2026-03-09 23:00:24 | INFO | src.downloader:download:29 - 开始下载: 2026春季九年级英语尖子1-1-1.mp4
+2026-03-09 23:02:33 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026春季九年级英语尖子1/2026春季九年级英语尖子1-1-1.mp4
+2026-03-09 23:02:33 | INFO | __main__:main:126 - {'id': 1043269525, 'className': '2026春季九年级物理尖子1 - 1', 'courseId': 299658187, 'courseName': '2026春季九年级物理尖子1', 'classBtime': 1772868600, 'classEtime': 1772875800, 'classStatus': 3, 'teacherInfo': {'id': 16385203, 'uid': 81932388, 'mobile': '15922255332', 'email': '', 'accountStatus': 0, 'name': '尚老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 21, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'a9e9b80a6ba2a47e', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1043269525, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1772625029, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 23:02:33 | INFO | src.spider:get_video:46 - 开始获取视频地址:299658187-1043269525
+2026-03-09 23:02:33 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/7700ef575145403719301051782/f0.mp4
+2026-03-09 23:02:33 | INFO | __main__:main:136 - 2026春季九年级物理尖子1-1-1.mp4
+2026-03-09 23:02:33 | INFO | src.downloader:download:29 - 开始下载: 2026春季九年级物理尖子1-1-1.mp4
+2026-03-09 23:04:48 | INFO | __main__:main:13 - 程序启动
+2026-03-09 23:04:50 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-09 23:04:53 | DEBUG | utils.cookies:load:59 - 注入 cookie 失败: __tk_id -> Message: invalid cookie domain: Cookie 'domain' mismatch
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+0   chromedriver                        0x00000001054c16b4 cxxbridge1$str$ptr + 3127600
+1   chromedriver                        0x00000001054b9a50 cxxbridge1$str$ptr + 3095756
+2   chromedriver                        0x0000000104f9656c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75432
+3   chromedriver                        0x000000010502decc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 696328
+4   chromedriver                        0x000000010501e620 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632668
+5   chromedriver                        0x0000000104fd3b9c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326872
+6   chromedriver                        0x0000000105480680 cxxbridge1$str$ptr + 2861308
+7   chromedriver                        0x0000000105483dd4 cxxbridge1$str$ptr + 2875472
+8   chromedriver                        0x0000000105465a7c cxxbridge1$str$ptr + 2751736
+9   chromedriver                        0x0000000105484658 cxxbridge1$str$ptr + 2877652
+10  chromedriver                        0x0000000105455ffc cxxbridge1$str$ptr + 2687608
+11  chromedriver                        0x00000001054a8d78 cxxbridge1$str$ptr + 3026932
+12  chromedriver                        0x00000001054a8ef4 cxxbridge1$str$ptr + 3027312
+13  chromedriver                        0x00000001054b96a8 cxxbridge1$str$ptr + 3094820
+14  libsystem_pthread.dylib             0x000000018fa5fc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018fa5aba8 thread_start + 8
+
+2026-03-09 23:04:53 | INFO | utils.cookies:load:65 - cookies 加载完成，成功 11 / 12
+2026-03-09 23:04:53 | INFO | __main__:main:25 - cookies 已加载，检查是否过期
+2026-03-09 23:04:53 | INFO | utils.cookies:is_cookie_expired:132 - cookies 未过期
+2026-03-09 23:04:56 | INFO | __main__:main:48 - cookies 验证成功，可以继续使用
+2026-03-09 23:04:56 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-09 23:04:56 | INFO | __main__:main:65 - 登录流程完成，开始构建信息
+2026-03-09 23:05:24 | INFO | __main__:main:108 - 开始获取 2026-03-08 到 2026-03-09 的课程
+2026-03-09 23:05:24 | INFO | src.spider:get_courses_by_date_range:126 - 开始获取 2026-03-08 到 2026-03-09 的课程
+2026-03-09 23:05:24 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2026-03-08 的课程
+2026-03-09 23:05:24 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2026-03-08 第 1 页的课程
+2026-03-09 23:05:24 | INFO | src.spider:get_courses_by_single_day:105 - 2026-03-08 第 1 页获取 9 条课程
+2026-03-09 23:05:24 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2026-03-09 的课程
+2026-03-09 23:05:24 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2026-03-09 第 1 页的课程
+2026-03-09 23:05:25 | INFO | src.spider:get_courses_by_single_day:101 - 2026-03-09 已获取全部课程，共 0 条
+2026-03-09 23:05:25 | INFO | src.spider:get_courses_by_date_range:138 - 共获取 9 条课程
+2026-03-09 23:05:25 | INFO | __main__:main:118 - 获取到 9 条课程
+2026-03-09 23:05:25 | INFO | __main__:main:126 - {'id': 1045698759, 'className': '2026春季高三数学 - 1', 'courseId': 300047939, 'courseName': '2026春季高三数学', 'classBtime': 1772955000, 'classEtime': 1772962200, 'classStatus': 3, 'teacherInfo': {'id': 17253069, 'uid': 83919386, 'mobile': '13389051652', 'email': '', 'accountStatus': 0, 'name': '韩老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 4, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 0, 'allowUnloggedChat': 1, 'watchPassword': '23158283', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'e113397a91956743', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1045698759, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 53058740, 'creatorName': '王梓旭', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1772954695, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 23:05:25 | INFO | src.spider:get_video:46 - 开始获取视频地址:300047939-1045698759
+2026-03-09 23:05:25 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/1335287c5145403719361851530/f0.mp4
+2026-03-09 23:05:25 | INFO | __main__:main:136 - 2026春季高三数学-1-1.mp4
+2026-03-09 23:05:25 | INFO | src.downloader:download:29 - 开始下载: 2026春季高三数学-1-1.mp4
+2026-03-09 23:06:09 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026春季高三数学/2026春季高三数学-1-1.mp4
+2026-03-09 23:06:09 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/aeb775645145403719400739818/f0.mp4
+2026-03-09 23:06:09 | INFO | __main__:main:136 - 2026春季高三数学-1-2.mp4
+2026-03-09 23:06:09 | INFO | src.downloader:download:29 - 开始下载: 2026春季高三数学-1-2.mp4
+2026-03-09 23:06:18 | INFO | src.downloader:download:49 - 下载完成: /Users/edwin/PycharmProjects/ClassinDownloader/data/videos/2026春季高三数学/2026春季高三数学-1-2.mp4
+2026-03-09 23:06:18 | INFO | __main__:main:126 - {'id': 1043288845, 'className': '2026春季九年级道法尖子班 - 1', 'courseId': 299660093, 'courseName': '2026春季九年级道法尖子班', 'classBtime': 1772955000, 'classEtime': 1772962200, 'classStatus': 3, 'teacherInfo': {'id': 16364689, 'uid': 26255758, 'mobile': '15810138206', 'email': '', 'accountStatus': 0, 'name': '白老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 16, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': '0c45585735061227', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1043288845, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1772626409, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 23:06:18 | INFO | src.spider:get_video:46 - 开始获取视频地址:299660093-1043288845
+2026-03-09 23:06:18 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/99c8c65f5145403719261616634/f0.mp4
+2026-03-09 23:06:18 | INFO | __main__:main:136 - 2026春季九年级道法尖子班-1-1.mp4
+2026-03-09 23:06:18 | INFO | src.downloader:download:29 - 开始下载: 2026春季九年级道法尖子班-1-1.mp4
+2026-03-09 23:07:24 | INFO | __main__:main:13 - 程序启动
+2026-03-09 23:07:25 | INFO | utils.browser:_create_driver:39 - Chrome 浏览器已启动 (headless=False)
+2026-03-09 23:07:27 | DEBUG | utils.cookies:load:59 - 注入 cookie 失败: __tk_id -> Message: invalid cookie domain: Cookie 'domain' mismatch
+  (Session info: chrome=145.0.7632.160)
+Stacktrace:
+0   chromedriver                        0x00000001050256b4 cxxbridge1$str$ptr + 3127600
+1   chromedriver                        0x000000010501da50 cxxbridge1$str$ptr + 3095756
+2   chromedriver                        0x0000000104afa56c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75432
+3   chromedriver                        0x0000000104b91ecc _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 696328
+4   chromedriver                        0x0000000104b82620 _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632668
+5   chromedriver                        0x0000000104b37b9c _RNvCsdExgN8vFLbb_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326872
+6   chromedriver                        0x0000000104fe4680 cxxbridge1$str$ptr + 2861308
+7   chromedriver                        0x0000000104fe7dd4 cxxbridge1$str$ptr + 2875472
+8   chromedriver                        0x0000000104fc9a7c cxxbridge1$str$ptr + 2751736
+9   chromedriver                        0x0000000104fe8658 cxxbridge1$str$ptr + 2877652
+10  chromedriver                        0x0000000104fb9ffc cxxbridge1$str$ptr + 2687608
+11  chromedriver                        0x000000010500cd78 cxxbridge1$str$ptr + 3026932
+12  chromedriver                        0x000000010500cef4 cxxbridge1$str$ptr + 3027312
+13  chromedriver                        0x000000010501d6a8 cxxbridge1$str$ptr + 3094820
+14  libsystem_pthread.dylib             0x000000018fa5fc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018fa5aba8 thread_start + 8
+
+2026-03-09 23:07:27 | INFO | utils.cookies:load:65 - cookies 加载完成，成功 11 / 12
+2026-03-09 23:07:27 | INFO | __main__:main:25 - cookies 已加载，检查是否过期
+2026-03-09 23:07:27 | INFO | utils.cookies:is_cookie_expired:132 - cookies 未过期
+2026-03-09 23:07:29 | INFO | __main__:main:48 - cookies 验证成功，可以继续使用
+2026-03-09 23:07:29 | INFO | utils.browser:quit:44 - 关闭浏览器
+2026-03-09 23:07:30 | INFO | __main__:main:65 - 登录流程完成，开始构建信息
+2026-03-09 23:07:50 | INFO | __main__:main:108 - 开始获取 2026-03-07 到 2026-03-08 的课程
+2026-03-09 23:07:50 | INFO | src.spider:get_courses_by_date_range:126 - 开始获取 2026-03-07 到 2026-03-08 的课程
+2026-03-09 23:07:50 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2026-03-07 的课程
+2026-03-09 23:07:50 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2026-03-07 第 1 页的课程
+2026-03-09 23:07:51 | INFO | src.spider:get_courses_by_single_day:105 - 2026-03-07 第 1 页获取 8 条课程
+2026-03-09 23:07:51 | INFO | src.spider:get_courses_by_single_day:69 - 开始获取 2026-03-08 的课程
+2026-03-09 23:07:51 | INFO | src.spider:get_courses_by_single_day:79 - 获取 2026-03-08 第 1 页的课程
+2026-03-09 23:07:51 | INFO | src.spider:get_courses_by_single_day:105 - 2026-03-08 第 1 页获取 9 条课程
+2026-03-09 23:07:51 | INFO | src.spider:get_courses_by_date_range:138 - 共获取 17 条课程
+2026-03-09 23:07:51 | INFO | __main__:main:118 - 获取到 17 条课程
+2026-03-09 23:07:51 | INFO | __main__:main:126 - {'id': 1043270867, 'className': '2026春季九年级英语尖子1 - 1', 'courseId': 299658369, 'courseName': '2026春季九年级英语尖子1', 'classBtime': 1772877600, 'classEtime': 1772884800, 'classStatus': 3, 'teacherInfo': {'id': 16374497, 'uid': 35440070, 'mobile': '18602211106', 'email': '', 'accountStatus': 0, 'name': '李老师', 'logo': ''}, 'assistants': [], 'coType': 0, 'omoStationBroadcast': 0, 'studentNum': 13, 'auditNum': '0', 'seatNum': 2, 'cloudFolder': 0, 'folderName': '', 'isFolderDel': '', 'webcast': {'useCoMainRecord': 0, 'liveState': 1, 'recordState': 1, 'openState': 1, 'watchByLogin': 1, 'allowUnloggedChat': 0, 'watchPassword': '', 'recordType': '0', 'webcastAllForbidden': '', 'webcastIntroduce': 0, 'webcastImg': ''}, 'lessonKey': 'ce4fad3e11387218', 'classLabel': [], 'classType': 1, 'isHd': 0, 'isDc': 0, 'picStatus': 3, 'clientClassId': 1043270867, 'isLock': 0, 'teachMode': 1, 'cameraHide': 0, 'screenMode': 1, 'creatorUid': 81112516, 'creatorName': '白老师（教务）', 'authorizeInfos': [], 'classIntroduce': '', 'classNumber': 65535, 'isAutoOnstage': 2, 'expiryTime': '0', 'courseType': '1', 'createTime': 1772625136, 'classSource': 3, 'liveHost': 'https://live.eeo.cn'}
+2026-03-09 23:07:51 | INFO | src.spider:get_video:46 - 开始获取视频地址:299658369-1043270867
+2026-03-09 23:07:51 | INFO | __main__:main:134 - https://playback.eeo.cn/794b4a11vodbj1252412222/69e9d7105145403719311305061/f0.mp4
+2026-03-09 23:07:51 | INFO | __main__:main:136 - 2026春季九年级英语尖子1-1-1.mp4
+2026-03-09 23:07:51 | INFO | src.downloader:download:29 - 开始下载: 2026春季九年级英语尖子1-1-1.mp4
